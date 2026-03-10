@@ -1,0 +1,43 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+      - dependencies
+    authors:
+      - dependabot
+      - renovate
+      - github-actions[bot]
+
+  categories:
+    - title: "🚀 Features"
+      labels:
+        - feature
+
+    - title: "🐛 Bug Fixes"
+      labels:
+        - fix
+
+    - title: "⚡ Performance"
+      labels:
+        - performance
+
+    - title: "🔒 Security"
+      labels:
+        - security
+
+    - title: "♻️ Refactoring"
+      labels:
+        - refactor
+
+    - title: "📦 Infrastructure & CI"
+      labels:
+        - ci
+        - infra
+
+    - title: "📝 Documentation"
+      labels:
+        - docs
+
+    - title: "🔧 Other Changes"
+      labels:
+        - "*"
